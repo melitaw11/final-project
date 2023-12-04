@@ -17,8 +17,8 @@ keywords:
 - reasearch
 
 abstract: |
-  The text of your summary.  Should not exceed 225 words.
-
+  In the realm of medical research, the importance of managing Blood Pressure (BP) to control the risk of cardiovascular disease is established and commonly known. However, the control of BP (defined as systolic BP < 140 and diastolic BP <90) among US adults with hypertension within the United States, has been decreasing over the past decade. Using publically available data, this study aims to identify a potential factor contributing to this decline in BP control among hypertensive US adults. Our analysis emphasizes the potential role of kidney disease as an influential factor contributing to this trend. Through classical causal analsysis techniques, our findings reveal that the presence of kidney disease substantially increases an individuals liklihood of not achieving the recommended BP control levels by 8% (6.4,8.9)_____. The implications drawn from this analysis are substaintial and should be taken into consideration in future healthcare strategies. The discovery of this relationship highlights the importance of management techniques targetting both hypertension and kidney disease_____ in an attempt to increase the prevelance of proper BP control among hypertensive US adults. By addressing these conditions together, health care systems can potentially prevent cardiovascular diseases more efficiently, and in a timely manner, enhancing overall patient well-being. 
+  
 bibliography: bibliography.bib
 output: rticles::biometrics_article
 month: "`r format(Sys.Date(), '%b')`"
