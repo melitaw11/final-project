@@ -3,17 +3,17 @@ title: Title here
 
 author: 
 - name: Melita Wiles
-  affiliation: Department of YYY, University of XXX
-  email: abc@def
+  affiliation: Department of Statistics, Wake Forest University
+  email: wilemf22@wfu.edu
   
 - name: Michael Moerk
-  affiliation: Department of ZZZ, University of WWW
-  email: djf@wef
+  affiliation: Department of Statistics, Wake Forest University
+  email: moermj@wfu.edu
 
 keywords:
-- key
-- dictionary
-- word
+- inference
+- statistics
+- health
 - research
 
 abstract: |
