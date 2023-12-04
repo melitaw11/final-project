@@ -17,7 +17,7 @@ keywords:
 - reasearch
 
 abstract: |
-  In the realm of medical research, the importance of managing Blood Pressure (BP) to control the risk of cardiovascular disease is established and commonly known. However, the control of BP (defined as systolic BP < 140 and diastolic BP <90) among US adults with hypertension within the United States, has been decreasing over the past decade. Using publically available data, this study aims to identify a potential factor contributing to this decline in BP control among hypertensive US adults. Our analysis emphasizes the potential role of kidney disease as an influential factor contributing to this trend. Through classical causal analsysis techniques, our findings reveal that the presence of kidney disease substantially increases an individuals liklihood of not achieving the recommended BP control levels by 8% (6.4,8.9)_____. The implications drawn from this analysis are substaintial and should be taken into consideration in future healthcare strategies. The discovery of this relationship highlights the importance of management techniques targetting both hypertension and kidney disease_____ in an attempt to increase the prevelance of proper BP control among hypertensive US adults. By addressing these conditions together, health care systems can potentially prevent cardiovascular diseases more efficiently, and in a timely manner, enhancing overall patient well-being. 
+  In the realm of medical research, the importance of managing Blood Pressure (BP) to control the risk of cardiovascular disease is established and commonly known. However, the control of BP (defined as systolic BP < 140 and diastolic BP < 90) among US adults with hypertension within the United States, has been decreasing over the past decade. Using publically available data, this study aims to identify a potential factor contributing to this decline in BP control among hypertensive US adults. Our analysis emphasizes the potential role of kidney disease as an influential factor contributing to this trend. Through classical causal analsysis techniques, our findings reveal that the presence of kidney disease substantially increases an individuals liklihood of not achieving the recommended BP control levels by 8% (6.4,8.9)_____. The implications drawn from this analysis are substaintial and should be taken into consideration in future healthcare strategies. The discovery of this relationship highlights the importance of management techniques targetting both hypertension and kidney disease_____ in an attempt to increase the prevelance of proper BP control among hypertensive US adults. By addressing these conditions together, health care systems can potentially prevent cardiovascular diseases more efficiently, and in a timely manner, enhancing overall patient well-being. 
   
 bibliography: bibliography.bib
 output: rticles::biometrics_article
@@ -32,60 +32,7 @@ referee: true # Papers submitted to Biometrics should ALWAYS be prepared
 
 Your text comes here. Separate text sections with
 
-# Section title {#sec:1}
 
-Text with citations by @heagerty2000time, [@pepe2003statistical].
-
-## Subsection title {#sec:2}
-
-as required [@hoerl1970ridge; @zou2005regularization]. Don't forget to give each section
-and subsection a unique label (see Sect. \ref{sec:1}).
-
-#### Paragraph headings 
-
-Use paragraph headings as needed.
-
-## Equations
-
-Here is an equation:
-
-$$ f_{X}(x) = \left(\frac{\alpha}{\beta}\right)\left(\frac{x}{\beta}\right)^{\alpha-1}e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; \alpha,\beta,x > 0 $$
-
-Here is another:
-\begin{align}
-a^2+b^2=c^2
-\end{align}
-
-Inline equations: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
-
-# Figures and tables
-
-
-## Figures coming from R
-
-#### Normal figure embedded in text
-
-```{r fig2, fig.width = 4, fig.height = 4, fig.cap = "Output from `pdf()`", echo = FALSE, dev = "pdf"}
-plot(runif(25) ~ runif(25))
-```
-
-\clearpage
-
-## Tables coming from R
-
-
-```{r tab1, results = 'asis'}
-print(xtable::xtable(head(mtcars)[,1:4], 
-caption = "Caption centered under table", label = "tab1"), 
-comment = FALSE, timestamp = FALSE, caption.placement = "top")
-```
-
-Table \ref{tab1} shows these numbers. Some of those numbers are plotted in Figure \ref{fig:fig1}.
-
-
-```{r tab2}
-head(mtcars[,1:4])
-```
 
 
 # References
