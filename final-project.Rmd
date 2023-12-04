@@ -2,11 +2,11 @@
 title: Title here
 
 author: 
-- name: Author 1
+- name: Melita Wiles
   affiliation: Department of YYY, University of XXX
   email: abc@def
   
-- name: Author 2
+- name: Michael Moerk
   affiliation: Department of ZZZ, University of WWW
   email: djf@wef
 
