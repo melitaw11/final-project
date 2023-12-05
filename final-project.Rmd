@@ -27,7 +27,7 @@ referee: true
 ---
 
 
-According to FactsAboutHypertension, approximately 37 million U.S. adults have uncontrolled hypertension, and thus lack adequate BP control. This is problematic as elevated levels of BP are associated with the strongest evidence for causation of cardiovascular disease @fuchs2020high. 
+According to @FactsAboutHypertension, approximately 37 million U.S. adults have uncontrolled hypertension, and thus lack adequate BP control. This is problematic as elevated levels of BP are associated with the strongest evidence for causation of cardiovascular disease @fuchs2020high. 
 
 <!-- Our aim of this study, is to identify a potential factor which may contribute to this decline in BP control among hypertensive US adults. According to @adamczak2002kidney, the relationship between kidney disease and BP is a unique and complicated one, where the functionality of one's kidney has been linked to affect one's blood pressure. We further explore this linkage through the use of classical causal analysis tools and techniques.  -->
 
