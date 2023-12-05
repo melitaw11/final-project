@@ -1,5 +1,5 @@
 ---
-title: Title here
+title: Filtering the Facts, Kidney Health's Secret Impact on Blood Pressure Control in US Adults
 
 author: 
 - name: Melita Wiles
@@ -27,10 +27,26 @@ referee: true
 ---
 
 
-According to @FactsAboutHypertension, approximately 37 million U.S. adults have uncontrolled hypertension, and thus lack adequate BP control. This is problematic as elevated levels of BP are associated with the strongest evidence for causation of cardiovascular disease @fuchs2020high. 
 
-<!-- Our aim of this study, is to identify a potential factor which may contribute to this decline in BP control among hypertensive US adults. According to @adamczak2002kidney, the relationship between kidney disease and BP is a unique and complicated one, where the functionality of one's kidney has been linked to affect one's blood pressure. We further explore this linkage through the use of classical causal analysis tools and techniques.  -->
+According to @wang2005epidemiology, approximately 1 in 4 U.S. adults have uncontrolled hypertension, and thus lack adequate BP control. This is problematic as elevated levels of BP are associated with the strongest evidence for causation of cardiovascular disease @fuchs2020high. Our aim of this study, is to identify a potential factor which may contribute to this decline in BP control among hypertensive US adults. According to @adamczak2002kidney, the relationship between kidney disease and BP is a unique and complicated one, where the functionality of one's kidney has been linked to affect one's blood pressure. We further explore this linkage through the use of classical causal analysis tools and techniques.
 
-<!-- Data from the US National Health and Nutrition Examination Survey (NHANES) was used to help answer this causal question, with potential confounding variables identified. According to @CDCDiabetesKidneyDisease, approximately 1 in 3 adults with diabetes has Cronic Kidney Disease (CKD). Furthermore, there have been a number of publications that support other factors such as smoking (@yacoub2010association), Body Mass Index (BMI) (@lakkis2018obesity), cholesterol (@gluba2019cholesterol), diabetes (@CDCDiabetesKidneyDisease), and age (@mallappallil2014chronic) all having an impact on the prevalence of kidney disease within an individual. However, these associations are highly interrelated with one another, and their relationships with one another must properly be specified. While arguably, diabetes is one of the leading causes of kidney disease (@CDCDiabetesKidneyDisease), other factors previously mentioned, such as BMI (@chobot2018obesity), age (@yan2023interaction), and smoking (@will2001cigarette) all possess an association with diabetes and need be considered. Likewise, it has been shown that there is an association between one's age and their smoking habits (@CDCsmoking) which needs to be taken into consideration as well. To add further complexity, there have been a large number of studies highlighting the amount of factors that influence one's cholesterol as well. According to @milyani2019effect BMI can influence one's cholesterol levels, but so can smoking (@van2023meta), and age (@bertolotti2014age) can too. Furthermore, our response variable of blood pressure control also has contributing associations that must be accounted for. According to @petrie2018diabetes, diabetes can also influence one's blood pressure, but so can an individual's age (@cheng2022age), and BMI (@landi2018body).  -->
 
+Data from the US National Health and Nutrition Examination Survey (NHANES) was used to help answer this causal question, with potential confounding variables identified. According to @winocour2018diabetes, approximately 30 to 40 percent of adults with diabetes has Cronic Kidney Disease (CKD). Furthermore, there have been a number of publications that support other factors such as smoking [@yacoub2010association], Body Mass Index (BMI) [@lakkis2018obesity], cholesterol [@gluba2019cholesterol], diabetes [@winocour2018diabetes], and age [@mallappallil2014chronic] all having an impact on the prevalence of kidney disease within an individual. However, these associations are highly interrelated with one another, and their relationships with one another must properly be specified. While arguably, diabetes is one of the leading causes of kidney disease [@winocour2018diabetes], other factors previously mentioned, such as BMI [@chobot2018obesity], age [@yan2023interaction], and smoking [@will2001cigarette] all possess an association with diabetes and need be considered. Likewise, it has been shown that there is an association between one's age and their smoking habits [@rogers1995demographic] which needs to be taken into consideration as well. To add further complexity, there have been a large number of studies highlighting the amount of factors that influence one's cholesterol as well. According to @milyani2019effect BMI can influence one's cholesterol levels, but so can smoking [@van2023meta], and age [@bertolotti2014age] can too. Furthermore, our response variable of blood pressure control also has contributing associations that must be accounted for. According to @petrie2018diabetes, diabetes can also influence one's blood pressure, but so can an individual's age [@cheng2022age], and BMI [@landi2018body]. Due to the interconnectedness that many of the variables within the dataset have, it is important that a proper directed acyclic gragh (DAG) is constructed to monitor and manage these relationships. Our aim is that through proper modeling of how these confounding measurements interact with one another, we can better understand what the causal effect of kidney disease on blood pressure control on adults in the United States.
+
+# Tables and Figures {#tabs}
+
+```{r fig1, out.width = "400px", fig.cap = "DAG", echo = FALSE, dev = "pdf"}
+# michael
+#knitr::include_graphics("~/Causal/final-project/DAG.jpg")
+# melita
+knitr::include_graphics("~/STA779/final-project/DAG.jpg")
+```
+
+```{r fig2, out.width = "400px", fig.cap = "Propensity Score", echo = FALSE, dev = "pdf"}
+# michael
+#knitr::include_graphics("~/Causal/final-project/Propensity_Score.jpg")
+# melita
+knitr::include_graphics("~/STA779/final-project/Propensity_Score.jpg")
+
+```
 
